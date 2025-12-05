@@ -21,7 +21,7 @@ for (p in pkgs) {
   }
 }
 
-Data <- read_excel("STAT101.xlsx", col_names = TRUE)
+Data <- read_excel("Data.xlsx", col_names = TRUE)
 
 ##=============================================================================
 ##
@@ -227,4 +227,5 @@ print(paste("Estimated Power:", power_estimate * 100, "%"))
 ##
 ## END
 ##
+
 ##=============================================================================
